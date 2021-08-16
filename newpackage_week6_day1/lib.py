@@ -1,4 +1,9 @@
-def try_me(word_1,word_2):
-    return len(word_1)-len(word_2)
+import random
+
+def try_me(word):
+    if word=='web deserved to lose':
+        print('You are a sucker')
+    else:
+        print('You are a champion')
     
     
